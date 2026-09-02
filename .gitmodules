@@ -1,0 +1,9 @@
+[submodule "core-shared-library"]
+	path = core-shared-library
+	url = https://github.com/kumar-asc/core-shared-library.git
+[submodule "disclosure-service"]
+	path = disclosure-service
+	url = https://github.com/kumar-asc/disclosure-service.git
+[submodule "workaction-service"]
+	path = workaction-service
+	url = https://github.com/kumar-asc/workaction-service.git
