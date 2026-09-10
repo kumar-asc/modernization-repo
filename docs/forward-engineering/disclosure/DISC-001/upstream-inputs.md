@@ -1,14 +1,30 @@
 # DISC-001 Upstream Inputs
 
-## Domain Model
+## User Story / Requirements
 
-Location:
+File:
 
-docs/upstream/domain-model/<FILE>
+docs/upstream/requirements/DISC-001.md
 
 Version:
 
-<VERSION>
+1.0
+
+Status:
+
+APPROVED
+
+---
+
+## Domain Model
+
+File:
+
+docs/upstream/domain-model/disclosure-domain-model-v1.md
+
+Version:
+
+1.0
 
 Status:
 
@@ -18,29 +34,13 @@ APPROVED
 
 ## Modularization Plan
 
-Location:
+File:
 
-docs/upstream/modularization/<FILE>
-
-Version:
-
-<VERSION>
-
-Status:
-
-APPROVED
-
----
-
-## Requirements
-
-Location:
-
-docs/upstream/requirements/<FILE>
+docs/upstream/modularization/disclosure-modularization-v1.md
 
 Version:
 
-<VERSION>
+1.0
 
 Status:
 
@@ -50,13 +50,13 @@ APPROVED
 
 ## RPG/Synon Mapping
 
-Location:
+File:
 
-docs/upstream/rpg-mapping/<FILE>
+docs/upstream/rpg-mapping/disclosure-search-mapping-v1.md
 
 Version:
 
-<VERSION>
+1.0
 
 Status:
 
@@ -64,28 +64,12 @@ APPROVED
 
 ---
 
-## Business Rules
+## Backend Instruction
 
-Location:
-
-docs/upstream/business-rules/<FILE>
-
-Version:
-
-<VERSION>
-
-Status:
-
-APPROVED
-
----
-
-## Backend Notes
-
-The backend team must consume these artifacts as upstream inputs.
+These documents are upstream inputs.
 
 Do not modify them.
 
-Any contradiction or missing information must be documented under:
+Any contradiction or missing information must be documented in:
 
 decision-required.md

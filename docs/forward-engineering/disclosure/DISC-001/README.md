@@ -1,28 +1,30 @@
-# DISC-001 - Disclosure Create and Search
+# DISC-001 - Disclosure Search
 
-## Story
+## Feature
 
-DISC-001
+Disclosure Search API
 
 ## Target Service
 
 disclosure-service
 
+## Story
+
+DISC-001
+
 ## Objective
 
-Implement the backend APIs and business behavior required for Disclosure creation and search.
+Implement a REST API that allows users to search Disclosure records using approved filters and pagination.
 
-## Upstream Inputs
+## API
 
-See:
+GET /api/disclosures/v1/search
 
-- upstream-inputs.md
+## Current Status
 
-## Forward Engineering Status
+FORWARD_ENGINEERING_NOT_STARTED
 
-NOT_STARTED
-
-## API Status
+## API Contract Status
 
 NOT_STARTED
 
@@ -38,19 +40,30 @@ NOT_STARTED
 
 NOT_STARTED
 
-## Blocking Decisions
+## Upstream Inputs
 
 See:
 
-decision-required.md
+upstream-inputs.md
 
 ## Scope
 
-This story covers only the backend functionality explicitly defined by the approved requirements and forward specification.
+This feature covers:
+
+- Disclosure search REST API
+- request validation
+- search application service
+- Disclosure persistence query
+- pagination
+- API response mapping
+- exception handling
+- automated tests
 
 ## Out of Scope
 
+- Disclosure creation
+- Disclosure update
+- WorkAction integration
 - Angular implementation
-- WorkAction business changes unless explicitly required
-- unrelated Disclosure functionality
+- messaging
 - unrelated refactoring
